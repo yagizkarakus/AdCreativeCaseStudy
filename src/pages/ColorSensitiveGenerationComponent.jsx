@@ -25,7 +25,7 @@ const ColorSensitiveGenerationComponent = () => {
     formData.append('prompt', prompt);
     formData.append('Hexcolor', hexColor);
 
-    const response = await fetch('https://72d9-178-233-24-227.ngrok-free.app//ColorSensitiveGeneration/', {
+    const response = await fetch('https://72d9-178-233-24-227.ngrok-free.app/ColorSensitiveGeneration/', {
       method: 'POST',
       body: formData,
     });

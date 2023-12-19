@@ -37,7 +37,7 @@ const DynamicAdImageComponent = () => {
     formData.append('ctaText', ctaText);
     formData.append('Hexcolor', hexColor);
 
-    const response = await fetch('https://72d9-178-233-24-227.ngrok-free.app//DynamicAdImage/', {
+    const response = await fetch('https://72d9-178-233-24-227.ngrok-free.app/DynamicAdImage/', {
       method: 'POST',
       body: formData,
     });
